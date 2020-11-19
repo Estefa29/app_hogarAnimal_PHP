@@ -104,6 +104,7 @@
                     </div>   
                 </div>
                 <button type="submit" class="btn btn-info btn-block mt-3">registrar</button>
+                <h5><?php echo(session('mensaje'))?></h5>
             </form>
             <div class="container">
             <h2>info</h2>
