@@ -32,7 +32,11 @@ class RegistroControlador extends BaseController
             $modeloAnimal = new ModeloAnimal();
             try{
                     $modeloAnimal->insert($datosEnvio);
-                    return redirect()->to(base_url("public/animales"));
+                   
+
+			$mensaje="animal registrado con éxito";
+			return redirect()->to(base_url("public/animales"))->with('mensaje',$mensaje);
+
 
             }catch(\Exception $e){
                     
