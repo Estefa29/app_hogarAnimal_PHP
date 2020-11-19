@@ -1,0 +1,80 @@
+CRITICAL - 2020-11-04 10:23:26 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\manualmiercoles\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\manualmiercoles\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `an...', Array, false)
+#2 C:\xampp\htdocs\manualmiercoles\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#3 C:\xampp\htdocs\manualmiercoles\app\Controllers\RegistroControlador.php(46): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\manualmiercoles\system\CodeIgniter.php(918): App\Controllers\RegistroControlador->registrar()
+#5 C:\xampp\htdocs\manualmiercoles\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroControlador))
+#6 C:\xampp\htdocs\manualmiercoles\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\manualmiercoles\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-04 10:45:18 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\manualmiercoles\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\manualmiercoles\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `an...', Array, false)
+#2 C:\xampp\htdocs\manualmiercoles\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#3 C:\xampp\htdocs\manualmiercoles\app\Controllers\RegistroControlador.php(36): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\manualmiercoles\system\CodeIgniter.php(918): App\Controllers\RegistroControlador->registrar()
+#5 C:\xampp\htdocs\manualmiercoles\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroControlador))
+#6 C:\xampp\htdocs\manualmiercoles\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\manualmiercoles\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-04 10:45:47 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\manualmiercoles\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\manualmiercoles\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `an...', Array, false)
+#2 C:\xampp\htdocs\manualmiercoles\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#3 C:\xampp\htdocs\manualmiercoles\app\Controllers\RegistroControlador.php(36): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\manualmiercoles\system\CodeIgniter.php(918): App\Controllers\RegistroControlador->registrar()
+#5 C:\xampp\htdocs\manualmiercoles\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroControlador))
+#6 C:\xampp\htdocs\manualmiercoles\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\manualmiercoles\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-04 10:54:09 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\manualmiercoles\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\manualmiercoles\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `an...', Array, false)
+#2 C:\xampp\htdocs\manualmiercoles\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#3 C:\xampp\htdocs\manualmiercoles\app\Controllers\RegistroControlador.php(36): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\manualmiercoles\system\CodeIgniter.php(918): App\Controllers\RegistroControlador->registrar()
+#5 C:\xampp\htdocs\manualmiercoles\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroControlador))
+#6 C:\xampp\htdocs\manualmiercoles\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\manualmiercoles\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-04 10:56:43 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\manualmiercoles\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\manualmiercoles\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `an...', Array, false)
+#2 C:\xampp\htdocs\manualmiercoles\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#3 C:\xampp\htdocs\manualmiercoles\app\Controllers\RegistroControlador.php(36): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\manualmiercoles\system\CodeIgniter.php(918): App\Controllers\RegistroControlador->registrar()
+#5 C:\xampp\htdocs\manualmiercoles\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroControlador))
+#6 C:\xampp\htdocs\manualmiercoles\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\manualmiercoles\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-04 10:57:18 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\manualmiercoles\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\manualmiercoles\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `an...', Array, false)
+#2 C:\xampp\htdocs\manualmiercoles\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#3 C:\xampp\htdocs\manualmiercoles\app\Controllers\RegistroControlador.php(36): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\manualmiercoles\system\CodeIgniter.php(918): App\Controllers\RegistroControlador->registrar()
+#5 C:\xampp\htdocs\manualmiercoles\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroControlador))
+#6 C:\xampp\htdocs\manualmiercoles\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\manualmiercoles\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-04 11:02:58 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\manualmiercoles\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\manualmiercoles\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `an...', Array, false)
+#2 C:\xampp\htdocs\manualmiercoles\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#3 C:\xampp\htdocs\manualmiercoles\app\Controllers\RegistroControlador.php(36): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\manualmiercoles\system\CodeIgniter.php(918): App\Controllers\RegistroControlador->registrar()
+#5 C:\xampp\htdocs\manualmiercoles\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroControlador))
+#6 C:\xampp\htdocs\manualmiercoles\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\manualmiercoles\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-04 11:03:16 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\manualmiercoles\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\manualmiercoles\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `an...', Array, false)
+#2 C:\xampp\htdocs\manualmiercoles\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#3 C:\xampp\htdocs\manualmiercoles\app\Controllers\RegistroControlador.php(36): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\manualmiercoles\system\CodeIgniter.php(918): App\Controllers\RegistroControlador->registrar()
+#5 C:\xampp\htdocs\manualmiercoles\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroControlador))
+#6 C:\xampp\htdocs\manualmiercoles\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\manualmiercoles\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

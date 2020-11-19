@@ -1,0 +1,56 @@
+CRITICAL - 2020-11-02 16:58:04 --> syntax error, unexpected '<'
+#0 C:\xampp\htdocs\manualmiercoles\system\Common.php(1119): CodeIgniter\View\View->render('vistaRegistro', Array, true)
+#1 C:\xampp\htdocs\manualmiercoles\app\Controllers\RegistroControlador.php(7): view('vistaRegistro')
+#2 C:\xampp\htdocs\manualmiercoles\system\CodeIgniter.php(918): App\Controllers\RegistroControlador->index()
+#3 C:\xampp\htdocs\manualmiercoles\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroControlador))
+#4 C:\xampp\htdocs\manualmiercoles\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\manualmiercoles\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-02 17:02:44 --> syntax error, unexpected '<'
+#0 C:\xampp\htdocs\manualmiercoles\system\Common.php(1119): CodeIgniter\View\View->render('vistaRegistro', Array, true)
+#1 C:\xampp\htdocs\manualmiercoles\app\Controllers\RegistroControlador.php(7): view('vistaRegistro')
+#2 C:\xampp\htdocs\manualmiercoles\system\CodeIgniter.php(918): App\Controllers\RegistroControlador->index()
+#3 C:\xampp\htdocs\manualmiercoles\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroControlador))
+#4 C:\xampp\htdocs\manualmiercoles\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\manualmiercoles\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-02 17:32:46 --> Use of undefined constant nombre1 - assumed 'nombre1' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\manualmiercoles\app\Views\vistaRegistro.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 56, Array)
+#1 C:\xampp\htdocs\manualmiercoles\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\manualmiercoles\system\Common.php(1119): CodeIgniter\View\View->render('vistaRegistro', Array, true)
+#3 C:\xampp\htdocs\manualmiercoles\app\Controllers\RegistroControlador.php(9): view('vistaRegistro', Array)
+#4 C:\xampp\htdocs\manualmiercoles\system\CodeIgniter.php(918): App\Controllers\RegistroControlador->index()
+#5 C:\xampp\htdocs\manualmiercoles\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroControlador))
+#6 C:\xampp\htdocs\manualmiercoles\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\manualmiercoles\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-02 18:48:42 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\manualmiercoles\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\manualmiercoles\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\manualmiercoles\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\manualmiercoles\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\manualmiercoles\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\manualmiercoles\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-02 18:53:28 --> syntax error, unexpected 'Config' (T_STRING), expecting ')'
+#0 C:\xampp\htdocs\manualmiercoles\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\manualmiercoles\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\manualmiercoles\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2020-11-02 18:54:05 --> syntax error, unexpected 'Config' (T_STRING), expecting ')'
+#0 C:\xampp\htdocs\manualmiercoles\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\manualmiercoles\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\manualmiercoles\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2020-11-02 23:07:44 --> syntax error, unexpected '<'
+#0 C:\xampp\htdocs\manualmiercoles\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\manualmiercoles\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\manualmiercoles\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\manualmiercoles\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\manualmiercoles\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\manualmiercoles\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
